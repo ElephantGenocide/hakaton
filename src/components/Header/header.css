@@ -3,11 +3,13 @@
     justify-content: center;
     align-items: center;
 
+    background-color: rgb(1, 6, 10);
 }
 .navbar_logo img{
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: 50px;
     justify-content: right;
+    margin: 1rem;
 }
 .navbar_container{
     display: flex;
@@ -15,5 +17,23 @@
     margin: auto;
 }
 .navbar_container a{
-    color: black;
+    margin: 35px;
+    
+    font-size: 20px;
+    color: rgb(238, 238, 238);
+    transition: 0.3s;
+}
+.navbar_buttons{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.navbar_buttons button{
+    margin: 15px;
+}
+
+@media screen and (max-width: 860px) {
+    .navbar{
+        flex-direction: column;
+    }
 }

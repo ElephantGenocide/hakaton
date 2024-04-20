@@ -1,10 +1,11 @@
 import React from 'react'
 import './features.css'
+import {Slider} from '../index'
 
 const Features = () => {
   return (
-    <div>
-      Features
+    <div className='features'>
+      <Slider />
     </div>
   )
 }

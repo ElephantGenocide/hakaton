@@ -1,10 +1,9 @@
-import {Header, Hero, Features, Content, Footer} from './components/index'
+import {Hero, Features, Content, Footer} from './components/index'
 
 function App() {
 
   return (
     <>
-      <Header />
       <Hero />
       <Features />
       <Content />
