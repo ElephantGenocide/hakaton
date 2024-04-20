@@ -1,13 +1,16 @@
 import React from "react";
 import "./hero.css";
-import qwer from "../../assets/airpot.jpg";
+import{ Header } from '../index'
+
 
 const Hero = () => {
   return (
+    <>
     <div className="hero">
+      <Header />
       <div className="hero_container">
         <div className="hero_container_image">
-          <img src={qwer} alt="image" />
+          <img src='' alt="image" />
         </div>
         <div className="hero_container_text">
           <p>
@@ -19,6 +22,8 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 };
 

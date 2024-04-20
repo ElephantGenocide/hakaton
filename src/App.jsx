@@ -1,10 +1,9 @@
-import {Hero, Features, Content, Footer, Header, Game} from './components/index'
+import {Hero, Features, Content, Footer, Game} from './components/index'
 
 function App() {
 
   return (
     <>
-    <Header />
       <Hero />
       <Features />
       <Content />
