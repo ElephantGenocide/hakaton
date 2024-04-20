@@ -1,8 +1,6 @@
 import React from "react";
 import "./hero.css";
 
-
-
 const Hero = () => {
   return (
     <>
@@ -22,7 +20,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-
+        
       </div>
     </>
 

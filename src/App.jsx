@@ -2,6 +2,7 @@ import { Hero, Features, Content, Footer, Game, Header } from './components/inde
 import React, { useState, useEffect } from 'react';
 import './App.css'
 
+
 function App() {
   const [offsetY, setOffsetY] = useState(0);
   const handleScroll = () => setOffsetY(window.pageYOffset);
@@ -26,12 +27,12 @@ function App() {
             </div>
           </div>
         </div>
+        
       </div>
       <Features />
       <Content />
       <Game />
       <Footer />
-      <h1>Привет мам!</h1>
     </>
   )
 }
