@@ -1,8 +1,10 @@
 import React from 'react'
-
+import './game.css'
 const Game = () => {
   return (
-    <div>Game</div>
+    <div className='game'>
+      
+    </div>
   )
 }
 

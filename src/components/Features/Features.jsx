@@ -5,7 +5,7 @@ import {Slider} from '../index'
 const Features = () => {
   return (
     <div className='features'>
-      <Slider />
+      Features
     </div>
   )
 }
