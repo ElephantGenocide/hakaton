@@ -19,7 +19,6 @@ const Header = () => {
         <div className='navbar_buttons'>
           <button type='button'>СТИЛ-ПОРТАЛ</button>
           <button type='button'>СВЯЗЬ</button>
-
         </div>
       </div>
 

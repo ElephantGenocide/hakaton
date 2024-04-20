@@ -1,10 +1,11 @@
 import React from 'react'
 import './content.css'
+import {Slider} from '../index'
 
 const Content = () => {
   return (
     <div>
-      Content
+      <Slider />
     </div>
   )
 }

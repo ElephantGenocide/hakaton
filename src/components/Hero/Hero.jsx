@@ -1,29 +1,31 @@
 import React from "react";
 import "./hero.css";
-import{ Header } from '../index'
+
 
 
 const Hero = () => {
   return (
     <>
-    <div className="hero">
-      <Header />
-      <div className="hero_container">
-        <div className="hero_container_image">
-          <img src='' alt="image" />
+      <div className="hero">
+        <div className="hero_section">
+          <div className="hero_section_container">
+            <div className="hero_section_container_title">
+              <h1 id="one">Планетарное великолепие </h1>
+              <h1 id="two">Уникальные кадры Земли в высоком разрешении</h1>
+            </div>
+            <div className="hero_section_container_content">
+              <p>
+                &emsp;&emsp;Погрузитесь в удивительный мир нашей планеты через объектив нашей компании, специализирующейся на коммерческой съемке ландшафта с высоком разрешении из космоса. Наши спутниковые снимки предоставляют уникальную возможность рассмотреть Землю с высоты птичьего полета, раскрывая весь ее великолепный масштаб и красоту.
+
+                Мы предлагаем широкий спектр услуг, начиная от разведки местности и анализа территории до создания атмосферных и уникальных коммерческих снимков. Наша команда профессиональных фотографов и специалистов по обработке изображений работает со снимками самого высокого качества, чтобы каждая деталь и контур природы были предельно четкими и реалистичными.
+              </p>
+            </div>
+          </div>
         </div>
-        <div className="hero_container_text">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate,
-            delectus totam repudiandae porro similique saepe temporibus sapiente
-            culpa sint molestias quam tempora amet exercitationem voluptates
-            ipsa adipisci voluptas fuga obcaecati!
-          </p>
-        </div>
+
       </div>
-    </div>
     </>
-    
+
   );
 };
 
