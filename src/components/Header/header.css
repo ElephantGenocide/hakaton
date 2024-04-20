@@ -3,12 +3,12 @@
     justify-content: center;
     align-items: center;
 
-    background-color: rgb(1, 6, 10);
+    background-color: rgb(3, 0, 10);
 }
 .navbar_logo img{
     width: auto;
     height: 50px;
-    justify-content: right;
+    
     margin: 1rem;
 }
 .navbar_container{
@@ -17,7 +17,7 @@
     margin: auto;
 }
 .navbar_container a{
-    margin: 35px;
+    margin: 3rem;
     
     font-size: 20px;
     color: rgb(238, 238, 238);
@@ -29,7 +29,7 @@
     justify-content: center;
 }
 .navbar_buttons button{
-    margin: 15px;
+    margin: 15px    ;
 }
 
 @media screen and (max-width: 860px) {

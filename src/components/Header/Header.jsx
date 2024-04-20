@@ -11,11 +11,12 @@ const Header = () => {
       <div className='navbar_container'>
         <a href='#home'>Главная</a>
         <a href='#home'>О нас</a>
+        <a href='#products'>Продукты</a>
         <a href='#home'>Связь</a>
       </div>
       <div className='navbar_buttons'>
-        <button type='button'>Войти</button>
-        <button type='button'>Регистрация</button>
+        <button type='button'>СТИЛ-ПОРТАЛ</button>
+        
       </div>
     </div>
   )
