@@ -1,0 +1,56 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+
+.footer-conteiner{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column: 90px;
+    border-bottom: 1px solid rgb(51, 31, 31);
+    padding: 5px;
+    width: 50vw;
+}
+
+.footerend{
+    margin-right: 40px;
+    display: flex;
+    flex-direction:column;
+    align-items: baseline;
+    width: 200px;
+}
+
+
+.seti img{
+    width: 30px;
+    font-size: 2px;
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    
+}
+
+.centerfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+.rightfooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+}
+
+#rr{
+    margin-right: 620px;
+}
