@@ -28,7 +28,7 @@ const Footer = () => {
           <a>Вакансии</a>
         </div>
         <div className="rightfooter">
-          <a>Контакты</a>
+          <p>Контакты</p>
           <a>8 800 222-87-18</a>
           <a>+7(903) 441-24-41</a>
           <a>info@stilspace.ru</a>
