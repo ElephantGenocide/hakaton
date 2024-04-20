@@ -10,7 +10,6 @@ function App() {
 
     return () => window.removeEventListener('scroll', handleScroll)
   }, []);
-  //style={{ transform: `translateY(${offsetY * 0.5}px)`}}
   return (
     <>
       <div className='parallax'>
@@ -31,7 +30,6 @@ function App() {
       <Content />
       <Game />
       <Footer />
-      <h1>Привет мам!</h1>
     </>
   )
 }
