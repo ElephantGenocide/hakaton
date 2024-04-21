@@ -4,7 +4,7 @@ import { Slider } from '../index'
 
 const Content = () => {
   return (
-    <div className='content'>
+    <div id='content' className='content'>
       <div className="content_container">
         <div className='content_container_title'>
           <h1>Примеры наших снимков</h1>

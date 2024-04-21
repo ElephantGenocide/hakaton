@@ -1,9 +1,27 @@
-import React from 'react';
+import {React} from 'react';
 import './header.css';
 import logo from '../../assets/header-logo.svg';
 
 
 const Header = () => {
+  const toTop = () => {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: "smooth"
+    })
+  }
+  // If back to element (use Ref)
+  const toElemnt = (id) => {
+    const element =
+      document.getElementById(id) + window.scrollY
+
+    window.scroll({
+      top: element,
+      behavior: "smooth"
+    })
+  }
+
   return (
     <div className='navbar'>
       <div className='navbar_container'>
@@ -12,14 +30,26 @@ const Header = () => {
           <p>За гранью Небес</p>
         </div>
         <div className='navbar_container_links'>
-          <a href='#home'>Главная</a>
+          <a >Главная</a>
           <a href='#home'>О нас</a>
-          <a href='#products'>Продукты</a>
-          <a href='#home'>Связь</a>
+          <a onClick={() => {
+            const element = document.getElementById('content');
+            element?.scrollIntoView({
+              behavior: 'smooth'
+            })
+
+          }}>Продукты</a>
+          <a onClick={() => {
+            const element = document.getElementById('footer');
+            element?.scrollIntoView({
+              behavior: 'smooth'
+            })
+
+          }}>Связь</a>
         </div>
         <div className='navbar_buttons'>
           <button type='button'>СТИЛ-ПОРТАЛ</button>
-          <button type='button'>СВЯЗЬ</button>
+          
         </div>
       </div>
 

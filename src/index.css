@@ -37,7 +37,9 @@ a {
 }
 a:hover {
   color: #0e6bdc;
+  cursor: pointer;
 }
+
 
 body {
   margin: 0;
@@ -63,9 +65,5 @@ button {
 button:hover {
   border-color: #0e6bdc;
   background-color: #1a1a1a00;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
