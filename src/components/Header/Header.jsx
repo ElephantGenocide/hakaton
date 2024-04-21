@@ -30,8 +30,13 @@ const Header = () => {
           <p>За гранью Небес</p>
         </div>
         <div className='navbar_container_links'>
-          <a >Главная</a>
-          <a href='#home'>О нас</a>
+          <a onClick={() => {
+            const element = document.getElementById('about');
+            element?.scrollIntoView({
+              behavior: 'smooth'
+            })
+          }}
+          >О нас</a>
           <a onClick={() => {
             const element = document.getElementById('content');
             element?.scrollIntoView({
@@ -48,7 +53,7 @@ const Header = () => {
           }}>Связь</a>
         </div>
         <div className='navbar_buttons'>
-          <button type='button'>СТИЛ-ПОРТАЛ</button>
+          <button type='button' href="#login">СТИЛ-ПОРТАЛ</button>
           
         </div>
       </div>

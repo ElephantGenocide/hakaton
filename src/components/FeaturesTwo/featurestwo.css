@@ -2,7 +2,8 @@
     height: 60rem;
     display: flex;
     padding: 4vw;
-    background: linear-gradient(#1a3339,  #0c0922 50%, #000000);
+    background: linear-gradient(#1a3339,  #101f4f8f 50%, #000000);
+    background-color: #154caadf;
     padding-inline: 10vw;
 }
 
