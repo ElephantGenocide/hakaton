@@ -23,10 +23,19 @@
 
 
 .feutwo_conteiner_stolbic{
+<<<<<<< HEAD
     grid-column: 2;
     grid-row: 2;
     justify-content: center;
 }
 .feutwo_conteiner_stolbic li{
     font-size: 1.3vw;
+=======
+    margin-top: 10rem;
+    margin-left: 40rem;
+    align-items: center;
+    font-size: 1.7rem;
+    width: 80vw;
+    min-width: 30vw;
+>>>>>>> bc9102d850ccf65f3a7c4974f70e587e72a0036e
 }
