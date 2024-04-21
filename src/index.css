@@ -7,8 +7,6 @@
 "Montserrat Alternates", sans-serif;
 "Jura", sans-serif;
 "Cormorant Unicase", serif;
-
-background-color: #242424;
  */
  
 :root {
@@ -22,8 +20,6 @@ background-color: #242424;
   
   background-color: #242424;
 
- 
-  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,7 +35,6 @@ a:hover {
   color: #0e6bdc;
   cursor: pointer;
 }
-
 
 body {
   margin: 0;

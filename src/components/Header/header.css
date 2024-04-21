@@ -32,8 +32,8 @@
     display: flex;
 }
 .navbar_buttons button{
-    margin: 30px;
-    font-size: 1.5rem;
+    margin: 15px;
+    font-size: 1rem;
 }
 
 .navbar_container a{
