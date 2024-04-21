@@ -1,4 +1,5 @@
 .feutwo{
+    height: 60rem;
     display: flex;
     padding: 4vw;
     background: linear-gradient(#1a3339,  #101f4f8f 50%, #000000);
@@ -7,13 +8,13 @@
 }
 
 .feutwo_conteiner img{
-    margin-right: 2rem;
-    width: 650px;
+    margin-top: 10rem;
+    width: 1200px;
 }
 
 
 .feutwo_conteiner{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     margin-right: 200px;
     width: 50px;
 
@@ -28,10 +29,10 @@
 }
 
 .feutwo_conteiner_stolbic{
-    margin-top: 14rem;
+    margin-top: 19rem;
     margin-left: 40rem;
     align-items: center;
-    font-size: 2rem;
+    font-size: 1.3rem;
     width: 80vw;
     min-width: 30vw;
 }
