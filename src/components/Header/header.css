@@ -65,8 +65,8 @@
         flex-direction: column;
     }
     .navbar_buttons button{
-        margin: 10px;
-        font-size: 1rem;
+        margin: 5px;
+        font-size: 2vh;
     }
     .navbar_container_links{
         grid-column: 1 / 3;
@@ -74,7 +74,7 @@
         margin-inline: 1.2rem;
     }
     .navbar_container_links a{
-        font-size: 2vh;
+        font-size: 1vh;
     }
 }
 

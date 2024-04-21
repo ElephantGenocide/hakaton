@@ -1,4 +1,4 @@
-import { Features, Content, Footer, Snake, Header, FeaturesTwo} from './components/index';
+import { Features, Content, Footer, Header, FeaturesTwo, Game} from './components/index';
 import React, { useState, useEffect } from 'react';
 
 import './App.css'
@@ -51,7 +51,7 @@ function App() {
       <Features />
       <Content />
       <FeaturesTwo />
-      <Snake />
+      
       <Footer />
     </>
   )
