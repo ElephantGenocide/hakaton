@@ -2,19 +2,23 @@
   "slides": [
     {
       "src": "https://stilspace.ru/upload/resize_cache/iblock/5ea/1024_1024_1/gra5qnz1y3ptd6vmnujx8skruzfr3h2n.jpg",
-      "alt": "Image 1 for carousel"
+      "alt": "imageOne",
+      "text": "Image 1"
     },
     {
       "src": "https://stilspace.ru/upload/resize_cache/iblock/23e/1024_1024_1/x2se1h0mu9rd4sfmz7222n72a6ksovwf.jpg",
-      "alt": "Image 2 for carousel"
+      "alt": "imageTwo",
+      "text": "Image 2"
     },
     {
       "src": "https://stilspace.ru/upload/resize_cache/iblock/e06/1024_1024_1/vr9b92ercu6dyiv418klawj8erpbhlak.jpg",
-      "alt": "Image 3 for carousel"
+      "alt": "imageThree",
+      "text": "Image 3"
     },
     {
       "src": "https://stilspace.ru/upload/resize_cache/iblock/36c/1024_1024_1/w5k4pqkpthsqmp5u1uavog03zwywf51i.jpg",
-      "alt": "Image 4 for carousel"
+      "alt": "imageFour",
+      "text": "Image 4"
     }
   ]
 }

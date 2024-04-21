@@ -8,7 +8,7 @@ import vk from '../../assets/vk.svg'
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div id='footer' className='footer'>
       <div className="footer_container">
         <div className="footer_container_section1">
           <img src={logo2} alt='logo-footer' />

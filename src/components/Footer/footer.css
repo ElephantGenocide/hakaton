@@ -74,7 +74,7 @@
         float: right;
     }
 }
-@media screen and (max-width: 344px) {
+@media screen and (max-width: 430px) {
     .footer_container{
         display: flex;
         flex-direction: column;
@@ -82,5 +82,9 @@
     }
     .footer_container_section1_icons img{
         margin: auto;
+    }
+    .footer_copymark{
+        justify-content: center;
+        display: flex;
     }
 }

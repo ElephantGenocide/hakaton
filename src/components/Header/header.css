@@ -20,7 +20,7 @@
 }
 .navbar_logo img{
     width: auto;
-    height: 50px;
+    height: 5vh;
 }
 .navbar_container_links{
     display: flex;
@@ -32,11 +32,10 @@
     display: flex;
 }
 .navbar_buttons button{
-    margin: 15px    ;
+    margin: 30px;
+    font-size: 1.5rem;
 }
-.navbar_buttons button{
-    font-size: 1vw;
-}
+
 .navbar_container a{
     margin: 3vw;
     
@@ -67,7 +66,7 @@
     }
     .navbar_buttons button{
         margin: 10px;
-        font-size: 1.2vh;
+        font-size: 1rem;
     }
     .navbar_container_links{
         grid-column: 1 / 3;
