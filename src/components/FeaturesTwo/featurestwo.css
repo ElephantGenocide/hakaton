@@ -1,0 +1,36 @@
+.feutwo{
+    display: flex;
+    padding: 4vw;
+    background: linear-gradient(#1a3339,  #0c0922 50%, #000000);
+    padding-inline: 10vw;
+}
+
+.feutwo_conteiner img{
+    margin-right: 2rem;
+    width: 650px;
+}
+
+
+.feutwo_conteiner{
+    font-size: 1.5rem;
+    margin-right: 200px;
+    width: 50px;
+
+}
+
+.service{
+    margin: left;
+}
+
+.shcont{
+    font-size: 2rem;
+}
+
+.feutwo_conteiner_stolbic{
+    margin-top: 14rem;
+    margin-left: 40rem;
+    align-items: center;
+    font-size: 2rem;
+    width: 80vw;
+    min-width: 30vw;
+}
