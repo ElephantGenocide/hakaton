@@ -2,6 +2,7 @@
     padding: 10vw;
     margin: 0;
     background: linear-gradient(#1a3339,  #242424 50%, #1a3339);
+    border-bottom: solid rgba(22, 106, 130, 0.563);
 }
 .content_container{
     display: grid;
@@ -37,4 +38,6 @@
         
         font-size: 20px;
         text-align: center;
+}
+
 }
