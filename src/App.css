@@ -2,21 +2,13 @@
     box-sizing: border-box;
     background: none;
   }
-.parallax{
-    
-    display: flex;   
-    justify-content: center;     
-    min-height: 100vh;
-    
+.parallax{  
+  overflow: hidden;
   }
-.parallax_container{
-    overflow: hidden;
-    background: none;
-}
+
 .parallax_container_bg{
     object-fit: contain;
     
-    top: 0;
     width: 100%;
     height: 120vh;
     background:
@@ -35,4 +27,56 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.hero_section_container{
+  padding-top:7rem;
+
+  display: flex;
+  flex-direction: column;
+}
+.hero_section_container_title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero_section_container_content{
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2vw;
+  font-weight: 500;
+  width: 60vw;
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 1276px) {
+  .parallax_container_content{
+    height: 110vh;
+  }
+  .hero_section_container{
+    padding-top:2rem;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+  }
+  .hero_section_container_title{
+    margin-top: -2vh;
+    font-size: 15px;
+  }
+  .hero_section_container_content{
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vh;
+    font-weight: 500;
+    width: 90vw;
+    margin-top: 3.5vh;
+  }
 }
