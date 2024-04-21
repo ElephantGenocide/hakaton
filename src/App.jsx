@@ -19,10 +19,12 @@ function App() {
       <div className='parallax'>
         <div className='parallax_container'>
           <div className='parallax_container_bg' style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
+          
             <div className='parallax_container_content' style={{ transform: `translateY(${offsetY * 0.4}px)` }}>
               <div style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
                 <Header />
               </div>
+              
               <div style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
                 <div className="hero">
                   <div className="hero_section">
@@ -31,6 +33,7 @@ function App() {
                         <h1 style={{ transform: `translateY(${offsetY * -0.15}px)` }}>Планетарное великолепие </h1>
                         <h2 style={{ transform: `translateY(${offsetY * -0.18}px)` }}>Уникальные кадры Земли в высоком разрешении</h2>
                       </div>
+                      
                       <div className="hero_section_container_content" style={{ transform: `translateY(${offsetY * 0.25}px)` }}>
                         <p>
                           Погрузитесь в удивительный мир нашей планеты через объектив нашей компании, специализирующейся на коммерческой съемке ландшафта с высоком разрешении из космоса. Наши спутниковые снимки предоставляют уникальную возможность рассмотреть Землю с высоты птичьего полета, раскрывая весь ее великолепный масштаб и красоту.

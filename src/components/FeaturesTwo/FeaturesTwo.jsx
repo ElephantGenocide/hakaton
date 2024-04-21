@@ -6,7 +6,7 @@ import img123 from '../../assets/feut/png-clipart-computer-icons-service-busines
 const FeaturesTwo = () => {
   return (
     <div>
-      <div className="feutwo">
+      <div id='about' className="feutwo">
         <div className="feutwo_conteiner">
           <h1>СТИЛПОРТАЛ</h1>
           <img src={img123} alt="img123" />

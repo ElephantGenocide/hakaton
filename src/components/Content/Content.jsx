@@ -9,7 +9,6 @@ const Content = () => {
         <div className='content_container_title'>
           <h1>Примеры наших снимков</h1>
         </div>
-          <p>Примеры оптической съемки в сверхвысоком разрешении. </p>
           <div className="slider">
             <Slider />
           </div>
