@@ -1,4 +1,4 @@
-import { Features, Content, Footer, Game, Header } from './components/index';
+import { Features, Content, Footer, Game, Header, FeaturesTwo} from './components/index';
 import React, { useState, useEffect } from 'react';
 import './App.css'
 
@@ -44,6 +44,7 @@ function App() {
       </div>
       <Features />
       <Content />
+      <FeaturesTwo />
       <Game />
       <Footer />
     </>

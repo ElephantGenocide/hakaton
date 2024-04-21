@@ -1,7 +1,7 @@
 .features{
     display: flex;
     padding: 5vw;
-    background: linear-gradient(#0e0a04,  #242424 50%, #1a3339);
+    background: linear-gradient(#000b06,  #263011 50%, #1a3339);
     padding-inline: 10vw;
     margin: 0;
     border-bottom: solid rgba(22, 106, 130, 0.563);
@@ -23,7 +23,7 @@
 li{
     margin-top: -5;
     font-weight:  300;
-    font-size: 1.5vw;
+    font-size: 1.44vw;
 }
 strong{font-weight: 800;}
 
