@@ -4,24 +4,6 @@ import logo from '../../assets/header-logo.svg';
 
 
 const Header = () => {
-  const toTop = () => {
-    window.scroll({
-      top: 0,
-      left: 0,
-      behavior: "smooth"
-    })
-  }
-  // If back to element (use Ref)
-  const toElemnt = (id) => {
-    const element =
-      document.getElementById(id) + window.scrollY
-
-    window.scroll({
-      top: element,
-      behavior: "smooth"
-    })
-  }
-
   return (
     <div className='navbar'>
       <div className='navbar_container'>
@@ -54,7 +36,6 @@ const Header = () => {
         </div>
         <div className='navbar_buttons'>
           <button type='button' href="#login">СТИЛ-ПОРТАЛ</button>
-          
         </div>
       </div>
 

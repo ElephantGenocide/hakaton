@@ -19,12 +19,10 @@ function App() {
       <div className='parallax'>
         <div className='parallax_container'>
           <div className='parallax_container_bg' style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
-          
             <div className='parallax_container_content' style={{ transform: `translateY(${offsetY * 0.4}px)` }}>
               <div style={{ transform: `translateY(${offsetY * -0.1}px)` }}>
                 <Header />
               </div>
-              
               <div style={{ transform: `translateY(${offsetY * 0.3}px)` }}>
                 <div className="hero">
                   <div className="hero_section">
@@ -51,7 +49,6 @@ function App() {
       <Features />
       <Content />
       <FeaturesTwo />
-      
       <Footer />
     </>
   )
